@@ -1,0 +1,13 @@
+[package]
+name = "brz-collections"
+version = "0.0.1"
+edition = "2024"
+description = "Breeze collections with optional cross-language iteration compatibility"
+repository = "https://github.com/we-breeze/collections"
+license = "(MIT OR Apache-2.0) AND Python-2.0"
+
+[features]
+cpython-set = []
+
+[lints.rust]
+unsafe_code = "forbid"
