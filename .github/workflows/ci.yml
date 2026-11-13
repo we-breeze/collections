@@ -31,7 +31,7 @@ jobs:
 
   cpython-order:
     name: CPython 3.12 order comparison
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 15
     steps:
       - uses: actions/checkout@v7
